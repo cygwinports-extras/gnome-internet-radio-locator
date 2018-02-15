@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="gnome-internet-radio-locator"
+VERSION=1.0.2
+RELEASE=1
+CATEGORY="Audio"
+SUMMARY="GNOME Internet Radio Locator"
+DESCRIPTION="GNOME Internet Radio Locator allows you to easily locate Free
+Internet Radio stations by broadcasters on the Internet with the help of a map."
+
+DIFF_EXCLUDES="Makefile"
+
+REQUIRES="gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad-free"
+
+CYGCONF_ARGS="--with-recording"
